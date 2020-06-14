@@ -26,12 +26,18 @@ PriorityQueue无界，但是他有一个内部的空间来管理在
 
 
 #Queue
-###JAVADOC这么说
+###使用心得
 queue是一个接口属于Collection接口，下面有三种实现  
 	1.Deque双端队列  
 	2.BlockingQueue阻塞队列  
 	3.AbstractQueue非阻塞队列  
-	
+LinkedList实现了Deque。常用的queue的实现为Deque
+Queue是实现了先入先出，主要的方法为add,offer均为
+添加操当因为容量问题添加失败时，add会抛出
+IllegalStateException异常，而offer不会抛出异常
+remove删除队头元素，如果为空，则返回null，peek和
+poll都是返回队头元素，区别是，如果队列为空那么poll
+会抛出NoSuchElementException异常
 
 
 
