@@ -1,6 +1,6 @@
 学习笔记
 
-位运算
+### 位运算
 	十进制<->二进制，如何转换
 	位运算符
 	左移<< 0011=>0110
@@ -97,7 +97,7 @@ def DFS(self, n, row, cols, pie, na):
 		int res = 0;
 	};
 	判断是否是2的幂次，需要保证所有的二进制位中有且仅有1个二进制位是1
-布隆过滤器bloom filter：
+### 布隆过滤器bloom filter
 布隆过滤器的原理实现：https://www.cnblogs.com/cpselvis/p/6265825.html
 布隆过滤器解决缓存击穿，垃圾邮件识别，集合判重https://blog.csdn.net/tianyaleixiaowu/article/details/74721877
 布隆过滤器实现实例https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/
@@ -844,8 +844,8 @@ function heapify(arr, len, i) {
 			while(i<=mid) temp[k++]=arr[i++];
 			while(j<=right) temp[k++]=arr[j++];
 	归并和快排具有相似性，但步骤顺序相反
-	归并：西安排序左右子数组，然后合并两个有序数组
-	快排：西安调配出左右子数组，然后对于左右子数组进行排序
+	归并：先排序左右子数组，然后合并两个有序数组
+	快排：先调配出左右子数组，然后对于左右子数组进行排序
 		3.堆排序-堆插入
 			1.数组元素依次建立小顶堆
 			2.依次取堆顶元素，并删除
