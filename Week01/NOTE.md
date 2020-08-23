@@ -1,6 +1,6 @@
 学习笔记
-#PriorityQueue
-###JAVADOC这么说：
+# PriorityQueue
+### JAVADOC这么说：
 无界的PriorityQueue基于一个priority Heap
 元素的优先级是由他天生的comparable或者comparator来
 确定的。由这两个中哪个确定是由使用哪个构造方法决定的  
@@ -25,8 +25,8 @@ PriorityQueue无界，但是他有一个内部的空间来管理在
 默认的初始容量为11  
 
 
-#Queue
-###使用心得
+# Queue
+### 使用心得
 queue是一个接口属于Collection接口，下面有三种实现  
 	1.Deque双端队列  
 	2.BlockingQueue阻塞队列  
